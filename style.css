@@ -8,15 +8,11 @@ body {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
-}
-#main {
   background-color: #1b1b19;
-  position: relative;
 }
-#page1 {
-  min-height: 125vh;
-  width: 100vw;
-  background-color: #c2bbb1;
+
+#main {
+  position: relative;
 }
 #nav {
   display: flex;
@@ -26,9 +22,6 @@ body {
   padding: 0 30px;
   width: 100%;
   border-bottom: 1px solid #646262;
-  position: sticky;
-  top: 0;
-  z-index: 2;
   background-color: #c2bbb1;
 }
 #nav h5 {
@@ -51,10 +44,15 @@ body {
 #nav i:hover {
   transform: scale(1.2);
 }
+#page1 {
+  min-height: 110vh;
+  width: 100vw;
+  background-color: #c2bbb1;
+}
 /*banner*/
 #banner {
   width: 100%;
-  height: 350px;
+  height: 400px;
   display: flex;
   justify-content: space-around;
   align-items: start;
@@ -103,7 +101,7 @@ body {
   font-size: 1.2vw;
   font-weight: 400;
   line-height: 1.5vw;
-  background-color: #B83C12;
+  background-color: #b83c12;
   font-weight: 100;
   font-size: 18px;
   padding: 0 4px;
@@ -138,7 +136,7 @@ body {
   font-size: 2.2rem;
   margin-bottom: 2rem;
   font-family: Editorial New;
-  color: #1C1C19;
+  color: #1c1c19;
 }
 #b2 span {
   font-family: canopee;
@@ -158,7 +156,7 @@ body {
 #heading {
   width: 96%;
   margin: 0 auto;
-  color: #C6BEB4;
+  color: #c6beb4;
   background-color: #1d1d1b;
   font-family: Canopee, sans-serif;
   font-size: 37vw;
@@ -168,51 +166,112 @@ body {
   padding: 2rem 0;
   padding-left: 1.2rem;
 }
-#sec-2{
-  height: 150vh;
-  margin-top: 4rem;
+#page2 {
+  min-height: 150vh;
   display: flex;
   justify-content: center;
-  align-items: center;
-  border: 1px solid black;
+  align-items: start;
   gap: 1rem;
   background-color: #c2bbb1;
+  padding: 3rem 1.5rem;
 }
-#sec-2 #left {
+#left {
   height: 100%;
-  width: 500px;
+  width: 35%;
+  border-right: 1px solid grey;
+}
+#left h1 {
+  font-family: Canopee;
+  font-size: 130px;
+  line-height: 100px;
+  letter-spacing: -0.08em;
+  color: #1b1b19;
+  font-weight: 100;
+}
+#left #c {
+  font-family: Domaine Display Condensed;
+  font-size: 130px;
+}
+#left h1 span {
+  font-size: 210px;
+  font-weight: 300;
+  line-height: 130px;
+}
+#left img {
+  height: 50%;
+  width: 90%;
+  margin: 1rem 0 2.4rem;
+  object-fit: cover;
   border: 1px solid black;
-  padding: 2rem;
-  text-align: center;
 }
-#sec-2 #left h1 {
+#left p {
+  font-family: Editorial New;
+  font-size: 2rem;
+  font-weight: lighter;
+  font-size: 2.25vw;
+  line-height: 2.7vw;
+  text-align: left;
+  color: #1c1b19;
+}
+#left p span {
+  float: left; /* Float the dropcap to the left */
+  font-size: 3em; /* Set the font size of the dropcap */
+  line-height: 1; /* Set the line height to avoid extra space */
+  font-weight: 100;
   font-family: Canopee;
-  font-size: 7vw;
-  line-height: 5vw;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-  margin-bottom: 0.8rem;
+  background-color: #1b1b19;
+  color: whitesmoke;
+  margin-right: 0.1em;
 }
-#sec-2 #left h2 {
+#left p {
+  font-size: 2.4vw;
+  line-height: 2.9vw;
+  color: #1b1b19;
+  font-weight: lighter;
+}
+#right {
+  flex: 1;
+  height: 100%;
+  padding: 0 2rem;
+}
+#right img {
+  width: 100%;
+  height: 53%;
+  margin-bottom: 2rem;
+  object-fit: cover;
+}
+#right h1 {
+  text-transform: uppercase;
   font-family: Canopee;
-  font-size: 15vw;
-  line-height: 10vw;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-  margin-bottom: 1.8rem;
+  font-size: 130px;
+  line-height: 110px;
+  font-weight: 100;
+  letter-spacing: -10px;
 }
-#sec-2 #left img {
-  height: 500px;
-  width: 400px;
-  margin-bottom: 1.6rem;
+#right span.g,
+span.c2,
+span.o {
+  font-family: Domaine Display Condensed;
 }
-#sec-2 .drop-cap {
-  line-height: 1.4;
-  font-size: 22px;
+#page3 {
+  background-color: #c2bbb1;
+  padding: 1rem;
+  position: relative;
 }
-.drop {
-  float: initial;
-  font-size: 5em;
-  margin-right: 5px; 
-  line-height: 1;
+#page3 h1 {
+  font-size: 400px;
+  font-weight: 100;
+  line-height: 300px;
+  letter-spacing: -10px;
+  background-color: #1C1C19;
+  width: fit-content;
+  color: #C4BCB3;
+  padding: 18px 22px;
+  font-family: canopee;
+}
+#page3 img {
+  width: 340px;
+  position: absolute;
+  right: 1.3rem;
+  top:0;
 }
