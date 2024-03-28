@@ -6,7 +6,7 @@ tl.to("#main", {
   scale: 0.4
 });
 tl.to("#main", {
-  y: "-130vh",
+  y: "-200vh",
   duration: 1,
   delay: 1
 });
