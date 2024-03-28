@@ -502,7 +502,7 @@ span.o {
   font-weight: 100;
   letter-spacing: -0.03em;
   line-height: 21rem;
-  color: #1C1C1A;
+  color: #1c1c1a;
 }
 #page-6-top div:nth-child(2) img {
   height: 100%;
@@ -512,29 +512,54 @@ span.o {
 }
 /*page-6-bottom*/
 #page-6-bottom {
- margin-top: 1.3rem;
+  margin-top: 1.3rem;
 }
 #page-6-bottom div:nth-child(1) img {
   width: 385px;
   height: 315px;
   object-fit: cover;
-  border: 1px solid  black;
+  border: 1px solid black;
   vertical-align: top;
 }
 #page-6-bottom div:nth-child(1) h1 {
- display: inline;
- font-size: 28rem;
- line-height: 20rem;
- font-family: canopee;
- letter-spacing: -0.05em;
- color: #1C1C1A;
- font-weight: 400;
- margin: 0;
+  display: inline;
+  font-size: 28rem;
+  line-height: 20rem;
+  font-family: canopee;
+  letter-spacing: -0.05em;
+  color: #1c1c1a;
+  font-weight: 400;
+  margin: 0;
 }
 #page-6-bottom div:nth-child(1) span {
   font-family: Domaine Display condensed;
 }
-
-
-
-
+#page-6-bottom div:nth-child(2) {
+  display: flex;
+}
+#page-6-bottom div:nth-child(2) h1 {
+  font-size: 23rem;
+  line-height: 20rem;
+  font-weight: 100;
+  letter-spacing: -0.05em;
+  background-color: #1c1c19;
+  color: #c4bcb3;
+  font-family: canopee;
+  width: fit-content;
+  padding: 0 10px;
+}
+#page-6-bottom div:nth-child(2) p {
+  padding: 2rem 0 2rem 2rem ;
+  font-size: 1.8rem;
+  font-weight: 100;
+  line-height: 1.2;
+  color: #1c1b19;
+  font-style: Editorial New;
+}
+#awards {
+  font-family: canopee;
+  display: block;
+  font-size: 112px;
+  letter-spacing: -0.05em;
+  line-height: 0.9;
+}
