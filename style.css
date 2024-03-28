@@ -176,7 +176,7 @@ body {
   padding: 2rem 0;
   padding-left: 1.2rem;
 }
-/*page3*/
+/*page2*/
 #page2 {
   min-height: 150vh;
   display: flex;
@@ -402,7 +402,7 @@ span.o {
   display: flex;
   justify-content: start;
   align-items: center;
-  background-color:#C9C0B6;
+  background-color: #c9c0b6;
   overflow: hidden;
 }
 #all-work #right-arrow {
@@ -421,10 +421,10 @@ span.o {
   font-family: Domaine Display condensed;
   padding-top: 8px;
 }
-#all-work:hover #right-arrow{
+#all-work:hover #right-arrow {
   transform: translateX(150px);
 }
-#all-work:hover  p {
+#all-work:hover p {
   transform: translateX(317px);
 }
 /*page-5*/
@@ -442,17 +442,17 @@ span.o {
   justify-content: space-between;
   align-items: center;
 }
-#box-1{
+#box-1 {
   display: flex;
   justify-content: start;
   align-items: center;
-  color: #1C1C19;
+  color: #1c1c19;
   width: 32%;
 }
 #box-1 h1 {
- font-family: Editorial New;
- font-size: 25px;
- font-weight: 100;
+  font-family: Editorial New;
+  font-size: 25px;
+  font-weight: 100;
 }
 #box-1 h2 {
   font-family: canopee;
@@ -462,10 +462,10 @@ span.o {
   letter-spacing: -0.05em;
   padding-left: 25px;
 }
-#box-1 div:nth-child(1){
+#box-1 div:nth-child(1) {
   text-align: center;
 }
-#box-1 div:nth-child(2){
+#box-1 div:nth-child(2) {
   font-size: 10rem;
   color: #1d1d1b;
   padding-bottom: 16px;
@@ -474,3 +474,67 @@ span.o {
 #box-1 span {
   font-family: Domaine Display condensed;
 }
+/*page-6*/
+#page-6 {
+  height: 190vh;
+  width: 100%;
+  background-color: #c2bbb1;
+  padding: 1.5rem 2rem;
+}
+#page-6-top {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 2rem;
+}
+#page-6-top div {
+  flex-basis: 50%;
+}
+#page-6-top div:nth-child(1) img {
+  height: 300px;
+  width: 202px;
+  object-fit: cover;
+}
+#page-6-top div:nth-child(1) h1 {
+  display: inline;
+  font-size: 27rem;
+  font-family: canopee;
+  font-weight: 100;
+  letter-spacing: -0.03em;
+  line-height: 21rem;
+  color: #1C1C1A;
+}
+#page-6-top div:nth-child(2) img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 1rem;
+}
+/*page-6-bottom*/
+#page-6-bottom {
+ margin-top: 1.3rem;
+}
+#page-6-bottom div:nth-child(1) img {
+  width: 385px;
+  height: 315px;
+  object-fit: cover;
+  border: 1px solid  black;
+  vertical-align: top;
+}
+#page-6-bottom div:nth-child(1) h1 {
+ display: inline;
+ font-size: 28rem;
+ line-height: 20rem;
+ font-family: canopee;
+ letter-spacing: -0.05em;
+ color: #1C1C1A;
+ font-weight: 400;
+ margin: 0;
+}
+#page-6-bottom div:nth-child(1) span {
+  font-family: Domaine Display condensed;
+}
+
+
+
+
