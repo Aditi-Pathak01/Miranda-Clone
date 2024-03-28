@@ -291,7 +291,7 @@ span.o {
   background-color: #c2bbb1;
   height: 130vh;
   width: 100%;
-  padding: 1rem 1.5rem;
+  padding: 3rem 1.5rem;
   display: flex;
   align-items: start;
 }
@@ -342,8 +342,9 @@ span.o {
   color: #1d1b1b;
 }
 #bottom-left {
-  padding: 2rem 1rem;
+  padding: 1rem;
   width: 100%;
+  margin-top: 2rem;
 }
 #bottom-left img {
   width: 100%;
@@ -509,6 +510,7 @@ span.o {
   width: 100%;
   object-fit: cover;
   margin-top: 1rem;
+  border: 1px solid black;
 }
 /*page-6-bottom*/
 #page-6-bottom {
@@ -538,28 +540,44 @@ span.o {
   display: flex;
 }
 #page-6-bottom div:nth-child(2) h1 {
-  font-size: 23rem;
-  line-height: 20rem;
+  font-size: 390px;
+  line-height: 350px;
   font-weight: 100;
   letter-spacing: -0.05em;
   background-color: #1c1c19;
   color: #c4bcb3;
   font-family: canopee;
   width: fit-content;
-  padding: 0 10px;
+  padding: 0 5px;
 }
 #page-6-bottom div:nth-child(2) p {
+  font-family: Editorial New;
   padding: 2rem 0 2rem 2rem ;
   font-size: 1.8rem;
   font-weight: 100;
-  line-height: 1.2;
+  line-height: 1.3;
   color: #1c1b19;
-  font-style: Editorial New;
 }
 #awards {
   font-family: canopee;
   display: block;
-  font-size: 112px;
+  font-size: 109px;
   letter-spacing: -0.05em;
   line-height: 0.9;
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+/*page7*/
+#page-7 {
+  background-color: #c2bbb1;
+  height: 55vh;
+  padding: 2.2rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+#card-container {
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
 }
