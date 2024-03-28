@@ -1,4 +1,3 @@
-
 let tl = gsap.timeline();
 tl.to("#main", {
   y: "100vh",
