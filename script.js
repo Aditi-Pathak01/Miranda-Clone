@@ -1,17 +1,12 @@
-const scroll = new LocomotiveScroll({
-  el: document.querySelector("#main"),
-  smooth: true
-});
 
-let tl = gsap.timeline();
-
+/*let tl = gsap.timeline();
 tl.to("#main", {
   y: "100vh",
   duration: 0,
   scale: 0.4
 });
 tl.to("#main", {
-  y: "-70vh",
+  y: "-130vh",
   duration: 1,
   delay: 1
 });
@@ -21,4 +16,4 @@ tl.to("#main", {
   delay:1.3,
   scale: 1,
   y: "0vh"
-});
+});*/
