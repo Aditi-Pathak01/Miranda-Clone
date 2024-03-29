@@ -552,7 +552,7 @@ span.o {
 }
 #page-6-bottom div:nth-child(2) p {
   font-family: Editorial New;
-  padding: 2rem 0 2rem 2rem ;
+  padding: 2rem 0 2rem 2rem;
   font-size: 1.8rem;
   font-weight: 100;
   line-height: 1.3;
@@ -569,15 +569,110 @@ span.o {
 }
 /*page7*/
 #page-7 {
-  background-color: #c2bbb1;
-  height: 55vh;
-  padding: 2.2rem;
-  display: flex;
-  justify-content: start;
-  align-items: center;
+  background-color: #c4bcb3;
+  height: 50vh;
+  padding: 2rem;
 }
 #card-container {
   height: 100%;
   width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border: 2px solid black;
+  flex-wrap: nowrap;
+}
+#card-container .card1,
+.card2 {
+  width: 600px;
+  height: 100%;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 0.9rem;
+}
+.card-content {
+  height: 100%;
+  width: 100%;
+  border-top: 2px dashed black;
+  border-left: 2px dashed black;
+  border-bottom: 2px dashed grey;
+  border-right: 2px dashed grey;
+  border-radius: 10px;
+  padding: 2rem;
+}
+.card-content p {
+  font-family: Editorial New;
+  font-size: 1.9vw;
+  line-height: 2.5vw;
+  letter-spacing: -0.01em;
+  color: #1d1d1b;
+  font-weight: 100;
+}
+.card-content img {
+  width: 50px;
+  border-radius: 50%;
   border: 1px solid black;
+  vertical-align: top;
+}
+#info {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+#info h1 {
+  font-size: 1.7rem;
+  font-family: canopee;
+  color: #1d1b1b;
+  font-weight: 100;
+}
+#info h4 {
+  font-size: 1.4vw;
+  font-family: Editorial New;
+  color: #1d1b1b;
+  font-weight: 100;
+}
+.card1:hover,
+.card2:hover {
+  background-color: #b6aca1;
+}
+/*page-9*/
+#page-9 {
+  padding: 2rem 0;
+  height: 20vh;
+  width: 100%;
+  background-color: #c2bbb1;
+  border: 1px solid black;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+#page-9::-webkit-scrollbar {
+  display: none;
+}
+#page-9 h1 {
+  font-size: 4rem;
+  font-family: editorial new;
+  font-weight: 100;
+  display: inline-block;
+  animation: scroll 1s infinite;
+  margin-right: 10px;
+}
+#page-9 span {
+  font-size: 4.5rem;
+  font-family: canopee;
+  color: rgb(177, 172, 172);
+  background-color: #1b1b19;
+}
+@keyframes scroll{
+0%{
+ transform: translateX(0);
+}
+100%{
+  transform: translateX(calc(-100% - 14px));
+}
+}
+#page-9:hover h1 {
+  animation-play-state: paused;
 }
