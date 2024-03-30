@@ -1,4 +1,4 @@
-let tl = gsap.timeline();
+/*let tl = gsap.timeline();
 tl.to("#main", {
   y: "100vh",
   duration: 0,
@@ -15,7 +15,7 @@ tl.to("#main", {
   delay: 1.3,
   scale: 1,
   y: "0vh",
-});
+});*/
 
 let card1 = document.querySelector("#card1");
 let card2 = document.querySelector("#card2");
@@ -60,5 +60,3 @@ card3.addEventListener("mouseout", () => {
   card4.style.left = "0";
   card4.style.transition = "all 0.5s ease-in-out";
 });
-
-
