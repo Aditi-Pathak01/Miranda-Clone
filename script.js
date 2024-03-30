@@ -21,7 +21,6 @@ let card1 = document.querySelector("#card1");
 let card2 = document.querySelector("#card2");
 let card3 = document.querySelector("#card3");
 let card4 = document.querySelector("#card4");
-let cardContainer = document.querySelector("#card-container");
 
 card1.addEventListener("mouseover", () => {
   card2.style.left = "20vw";
