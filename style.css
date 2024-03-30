@@ -567,7 +567,7 @@ span.o {
 }
 /*page7*/
 #page-7 {
-  height: 50vh;
+  height: 55vh;
   width: 100%;
   padding: 2rem;
   margin-top: 2rem;
@@ -579,7 +579,6 @@ span.o {
   justify-content: start;
   align-items: center;
   position: relative;
-  overflow-x: auto;
 }
  #card1,
 #card2,#card3,#card4 {
@@ -592,22 +591,15 @@ span.o {
   cursor: pointer;
   box-shadow: -5px 0px 10px -5px rgba(0, 0, 0, 0.7);
   position: absolute;
-  bottom: 0;
-}
-.card{
-  transition: preserve-3d;
-}
-#card1 {
-  transform: translateX(0);
 }
 #card2 {
-  transform: translateX(40%);
+  transform: translateX(42%);
 }
 #card3 {
-  transform: translateX(80%);
+  transform: translateX(82%);
 }
 #card4 {
-  transform: translateX(120%);
+  transform: translateX(122%);
 }
 #card1:hover,#card2:hover,#card3:hover,#card4:hover {
   background-color: #b4a796;

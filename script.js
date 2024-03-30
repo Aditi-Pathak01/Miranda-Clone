@@ -5,7 +5,7 @@ tl.to("#main", {
   scale: 0.4,
 });
 tl.to("#main", {
-  y: "-200vh",
+  y: "-235vh",
   duration: 1,
   delay: 1,
 });
@@ -26,39 +26,39 @@ card1.addEventListener("mouseover", () => {
   card2.style.left = "20vw";
   card3.style.left = "20vw";
   card4.style.left = "20vw";
-  card2.style.transition = "all 0.5s ease-ing";
-  card3.style.transition = "all 0.5s ease-in";
-  card4.style.transition = "all 0.5s ease-in";
+  card2.style.transition = "all 0.5s ease-in-out";
+  card3.style.transition = "all 0.5s ease-in-out";
+  card4.style.transition = "all 0.5s ease-in-out";
 });
 card1.addEventListener("mouseout", () => {
   card2.style.left = "0"
   card3.style.left = "0";
   card4.style.left = "0";
-  card2.style.transition = "all 0.5s ease-in";
-  card3.style.transition = "all 0.5s ease-in";
-  card4.style.transition = "all 0.5s ease-in";
+  card2.style.transition = "all 0.5s ease-in-out";
+  card3.style.transition = "all 0.5s ease-in-out";
+  card4.style.transition = "all 0.5s ease-in-out";
 });
 
 card2.addEventListener("mouseover", () => {
   card3.style.left = "20vw";
   card4.style.left = "20vw";
-  card3.style.transition = "all 0.5s ease-in";
-  card4.style.transition = "all 0.5s ease-in";
+  card3.style.transition = "all 0.5s ease-in-out";
+  card4.style.transition = "all 0.5s ease-in-out";
 });
 card2.addEventListener("mouseout", () => {
   card3.style.left = "0";
   card4.style.left = "0";
-  card3.style.transition = "all 0.5s ease-in";
-  card4.style.transition = "all 0.5s ease-in";
+  card3.style.transition = "all 0.5s ease-in-out";
+  card4.style.transition = "all 0.5s ease-in-out";
 });
 
 card3.addEventListener("mouseover", () => {
   card4.style.left = "20vw";
-  card4.style.transition = "all 0.5s ease-in";
+  card4.style.transition = "all 0.5s ease-in-out";
 });
 card3.addEventListener("mouseout", () => {
   card4.style.left = "0";
-  card4.style.transition = "all 0.5s ease-in";
+  card4.style.transition = "all 0.5s ease-in-out";
 });
 
 
