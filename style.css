@@ -654,6 +654,10 @@ span.o {
   border-top: 1px solid grey;
   padding-top: 1rem;
 }
+#banner2 #b1 #title img{
+ width: 140px;
+}
+
 /*page-9*/
 #page-9 {
   height: 18vh;
@@ -677,7 +681,7 @@ span.o {
   font-weight: 100;
   display: inline-block;
   animation: scroll 1s infinite;
-  margin-right: 20px;
+  margin-right: 10px;
   letter-spacing: -0.01em;
 }
 #page-9-content span {
@@ -691,7 +695,7 @@ span.o {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-100% - 24px));
+    transform: translateX(calc(-100% - 14px));
   }
 }
 #page-9-content:hover h1 {
@@ -740,4 +744,3 @@ span.o {
   text-decoration: none;
   color: #1b1b19;
 }
-

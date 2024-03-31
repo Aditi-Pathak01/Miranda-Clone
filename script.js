@@ -16,7 +16,6 @@ tl.to("#main", {
   scale: 1,
   y: "0vh",
 });*/
-
 let card1 = document.querySelector("#card1");
 let card2 = document.querySelector("#card2");
 let card3 = document.querySelector("#card3");
@@ -59,4 +58,5 @@ card3.addEventListener("mouseover", () => {
 card3.addEventListener("mouseout", () => {
   card4.style.left = "0";
   card4.style.transition = "all 0.5s ease-in-out";
-});
+})
+
