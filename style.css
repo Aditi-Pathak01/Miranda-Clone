@@ -31,7 +31,7 @@ body::-webkit-scrollbar {
   top: 0;
   left: 0;
   z-index: 10;
-  background-color: #c2bbb1;
+  background-color: #cdc6be;
 }
 #nav h5 {
   font-size: 14px;
@@ -55,7 +55,8 @@ body::-webkit-scrollbar {
   width: 100vw;
 }
 /*banner*/
-#banner,#banner2 {
+#banner,
+#banner2 {
   width: 100%;
   height: 400px;
   display: flex;
@@ -150,7 +151,8 @@ body::-webkit-scrollbar {
   font-family: Editorial New;
   color: #1c1c19;
 }
-#b2 h1 br,#banner2 #b1 br {
+#b2 h1 br,
+#banner2 #b1 br {
   display: none;
 }
 #b2 span,
@@ -310,6 +312,7 @@ span.o {
   height: 100%;
   border-right: 1.5px solid black;
   padding-left: 1rem;
+  color:#1C1B19
 }
 #top-2 {
   flex: 1;
@@ -535,6 +538,7 @@ span.o {
 }
 #page-6-bottom div:nth-child(2) {
   display: flex;
+  align-items: center;
 }
 #page-6-bottom div:nth-child(2) h1 {
   font-size: 390px;
@@ -579,8 +583,10 @@ span.o {
   align-items: center;
   position: relative;
 }
- #card1,
-#card2,#card3,#card4 {
+#card1,
+#card2,
+#card3,
+#card4 {
   width: 600px;
   height: 100%;
   border: 2px solid black;
@@ -600,7 +606,10 @@ span.o {
 #card4 {
   transform: translateX(122%);
 }
-#card1:hover,#card2:hover,#card3:hover,#card4:hover {
+#card1:hover,
+#card2:hover,
+#card3:hover,
+#card4:hover {
   background-color: #b4a796;
 }
 .card-content {
@@ -654,8 +663,8 @@ span.o {
   border-top: 1px solid grey;
   padding-top: 1rem;
 }
-#banner2 #b1 #title img{
- width: 140px;
+#banner2 #b1 #title img {
+  width: 140px;
 }
 
 /*page-9*/
