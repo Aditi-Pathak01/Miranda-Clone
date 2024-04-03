@@ -242,7 +242,7 @@ body::-webkit-scrollbar {
   margin-right: 0.1em;
 }
 #right {
-  flex: 1;
+  width: 65%;
   height: 100%;
   padding: 0 2rem;
 }
@@ -354,6 +354,7 @@ span.o {
 }
 #p4-right {
   padding: 0 2rem;
+  width: 35%;
 }
 #p4-right h1 {
   font-family: canopee;
@@ -666,7 +667,6 @@ span.o {
 #banner2 #b1 #title img {
   width: 140px;
 }
-
 /*page-9*/
 #page-9 {
   height: 18vh;
